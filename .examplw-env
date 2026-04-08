@@ -1,0 +1,26 @@
+NEXT_PUBLIC_APP_NAME = "Dripshoppe"
+NEXT_PUBLIC_APP_DESCRIPTION = "A modern ecommerce store built with Next.js"
+NEXT_PUBLIC_SERVER_URL = "http://localhost:3000"
+
+DATABASE_URL="postgresql://neondb_owner:npg_ZvadTUw1i8YD@ep-calm-violet-aer37exp-pooler.c-2.us-east-2.aws.neon.tech/neondb?channel_binding=require&sslmode=require"
+
+NEXTAUTH_SECRET="sample_nextauth_secret_key"
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_URL_INTERNAL=http://localhost:3000
+
+PAYMENT_METHODS="PayPal, Stripe, CashOnDelivery"
+DEFAULT_PAYMENT_METHOD="PayPal"
+
+PAYPAL_API_URL="https://api-m.sandbox.paypal.com"
+PAYPAL_CLIENT_ID="abcd1234_sample_paypal_client_id"
+PAYPAL_APP_SECRET="sample_paypal_app_secret"
+
+UPLOADTHING_TOKEN='sa'
+UPLOADTHING_SECRET="sample_secret_key"
+UPLOADTHING_APPID="sample_app_id"
+
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY="pk_test_51T1Yk2RpLhSeb1Qhu0uYx6FlZ4NkhU1ntZMx9WCO7rAC1U4OC3T0u5F8dCYRiKQNZnZpf6OXUgoVKBR9zOX5dRgi00SbCr4Lxd"
+STRIPE_SECRET_KEY="sk_test_51T1Yk2RpLhSeb1Qh1NH1disYvj1np6ZJlrNYQqh7fbkiSwsbxDK2IWzPoGBCwy4xHPY1nBrHjG7tNMSNbJxwhza200o6vPXX8V"
+
+RESEND_API_KEY="re_R1FAJvEv_K9QvbGzK9Kvxg3NrqBeiKNDq"
+SENDER_EMAIL="capistrano.jonathan27@gmail.com"
